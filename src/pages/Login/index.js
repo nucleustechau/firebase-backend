@@ -16,7 +16,7 @@ const styles = theme => ({
     },
   },
 });
-const Login = ({ classes, match }) => {
+const Login = ({ classes }) => {
   return (
     <Paper className={classes.root}>
       <LoginForm />
